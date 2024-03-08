@@ -71,6 +71,7 @@ from localstack.utils.aws.request_context import extract_access_key_id_from_auth
 from localstack.utils.common import short_uid
 from localstack.utils.patch import patch
 
+# testing  change in a different service that isn't included in opt-in clauses
 SERVICE_LINKED_ROLE_PATH_PREFIX = "/aws-service-role"
 
 ADDITIONAL_MANAGED_POLICIES = {
